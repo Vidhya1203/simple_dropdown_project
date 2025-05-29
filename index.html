@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <select  id="dropdown">   
+        
+    </select>
+
+    <script>
+
+let dropdown=document.getElementById("dropdown")
+
+const arr=["chennai","Mumbai","delhi"]
+
+
+
+for(let i=0;i<arr.length;i++){
+const option=document.createElement("option")
+    option.textContent=arr[i]
+    dropdown.append(option)
+}
+
+    </script>
+    
+</body>
+</html>
